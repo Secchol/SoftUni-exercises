@@ -10,6 +10,7 @@ namespace First_exercise
     {
         static void Main(string[] args)
         {
+            //This program can Take the characters on odd indexes,remove a substring and substitute items from a given string
             string text = Console.ReadLine();
             string command = Console.ReadLine();
             while (command != "Done")
