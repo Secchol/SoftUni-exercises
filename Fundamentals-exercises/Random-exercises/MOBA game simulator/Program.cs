@@ -97,8 +97,10 @@ namespace MOBA_game_simulator
 
 
                 commands = Console.ReadLine();
-            }
 
+
+            }
         }
     }
 }
+
