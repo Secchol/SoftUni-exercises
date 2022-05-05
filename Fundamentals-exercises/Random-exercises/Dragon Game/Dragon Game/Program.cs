@@ -38,16 +38,16 @@ namespace Dragon_Game
 
                 string type = infoArray[0];
                 string name = infoArray[1];
-                if (infoArray[2] == "null")
+                if (infoArray[2].Trim() == "null")
                 {
                     infoArray[2] = "45";
 
                 }
-                else if (infoArray[3] == "null")
+                else if (infoArray[3].Trim() == "null")
                 {
                     infoArray[3] = "250";
                 }
-                else if (infoArray[4] == "null")
+                else if (infoArray[4].Trim() == "null")
                 {
                     infoArray[4] = "10";
 
