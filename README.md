@@ -1,2 +1,2 @@
 # SoftUni-exercises
-Solutions to problems at SoftUni.
+Exercises from SoftUni. From Fundamentals to Advanced.
