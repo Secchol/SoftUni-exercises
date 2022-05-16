@@ -7,30 +7,31 @@ namespace Clothes_shop
     {
         static void Main(string[] args)
         {
-            Stack<int> clothesWeight = new Stack<int>(Console.ReadLine()
+            Stack<int> clothes = new Stack<int>(Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(x => int.Parse(x))
                 .ToArray());
             int rackCapacity = int.Parse(Console.ReadLine());
             int racksCount = 1;
             int currentWeightOnRack = 0;
-            if (rackCapacity == 0)
+
+
+
+            while (clothes.Count > 0)
             {
-                Console.WriteLine(clothesWeight.Count);
-                return;
-
-
-            }
-
-
-            while (clothesWeight.Count > 0)
-            {
-                currentWeightOnRack += clothesWeight.Peek();
+                currentWeightOnRack += clothes.Peek();
                 if (currentWeightOnRack == rackCapacity)
                 {
+                    clothes.Pop();
                     currentWeightOnRack = 0;
-                    racksCount++;
-                    clothesWeight.Pop();
+                    if (clothes.Count > 0)
+                    {
+
+                        racksCount++;
+
+                    }
+                    
+
 
 
                 }
@@ -44,7 +45,7 @@ namespace Clothes_shop
                 }
                 else
                 {
-                    clothesWeight.Pop();
+                    clothes.Pop();
 
 
                 }
