@@ -8,28 +8,47 @@ namespace Truck_Tour
     {
         static void Main(string[] args)
         {
-            int numberOfPumps = int.Parse(Console.ReadLine());
-            Queue<string> pumps = new Queue<string>();
-
-            for (int i = 0; i < numberOfPumps ; i++)
+            int n = int.Parse(Console.ReadLine());
+            Queue<int[]> pumps = new Queue<int[]>();
+            for (int i = 0; i < n; i++)
             {
-                string pump = Console.ReadLine();
+                int[] pump = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToArray();
                 pumps.Enqueue(pump);
             }
-            int index = 0;
-            while (pumps.Count > 0)
+            int startIndex = 0;
+            while (true)
             {
-                int[] pumpInfo = pumps.Dequeue().Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                    .Select(x => int.Parse(x))
-                    .ToArray();
-                if (pumpInfo[0] - pumpInfo[1] >= 0)
+                int totalLiters = 0;
+                bool isComplete = true;
+                foreach (int[] item in pumps)
                 {
-                    Console.WriteLine(index);
+                    int liters = item[0];
+                    int distance = item[1];
+                    totalLiters += liters;
+                    if (totalLiters - distance < 0)
+                    {
+                        startIndex++;
+                        int[] currentPump = pumps.Dequeue();
+                        pumps.Enqueue(currentPump);
+                        isComplete = false;
+                        break;
+
+
+                    }
+                    totalLiters -= distance;
+
+                }
+                if (isComplete)
+                {
+                    Console.WriteLine(startIndex);
                     break;
 
 
                 }
-                index++;
+
 
 
             }

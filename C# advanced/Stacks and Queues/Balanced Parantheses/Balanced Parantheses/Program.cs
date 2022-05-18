@@ -57,7 +57,7 @@ namespace Balanced_Parantheses
 
                 }
             }
-            if (!isBalanced )
+            if (!isBalanced || stack.Count > 0)
             {
 
                 Console.WriteLine("NO");
