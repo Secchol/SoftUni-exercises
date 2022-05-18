@@ -8,59 +8,65 @@ namespace Balanced_Parantheses
     {
         static void Main(string[] args)
         {
-            string sequence = Console.ReadLine();
-            Stack<char> normal = new Stack<char>();
-            Stack<char> curly = new Stack<char>();
-            Stack<char> square = new Stack<char>();
-            for (int i = 0; i < sequence.Length; i++)
+            string input = Console.ReadLine();
+            bool isBalanced = true;
+            Stack<char> stack = new Stack<char>();
+
+
+            foreach (char item in input)
             {
-                char character = sequence[i];
-                if (character == '(')
+                if (item == '(' || item == '{' || item == '[')
                 {
-                    normal.Push(character);
+                    stack.Push(item);
+                    continue;
 
 
                 }
-                else if (character == '{')
+                if (stack.Count == 0)
                 {
-                    curly.Push(character);
+                    isBalanced = false;
+                    break;
+
+                }
+                if (item == ')' && stack.Peek() == '(')
+                {
+
+                    stack.Pop();
 
 
                 }
-                else if (character == '[')
+                else if (item == '}' && stack.Peek() == '{')
                 {
-                    square.Push(character);
+
+                    stack.Pop();
 
 
                 }
-                else if (character == ')')
+                else if (item == ']' && stack.Peek() == '[')
                 {
-                    normal.Pop();
+
+                    stack.Pop();
 
 
                 }
-                else if (character == ']')
+                else
                 {
-                    square.Pop();
-
-
-                }
-                else if (character == '}')
-                {
-                    curly.Pop();
+                    isBalanced = false;
+                    break;
 
 
                 }
             }
-            if (square.Count == 0 && curly.Count == 0 && normal.Count == 0)
+            if (!isBalanced )
             {
-                Console.WriteLine("YES");
+
+                Console.WriteLine("NO");
 
 
             }
             else
             {
-                Console.WriteLine("NO");
+                Console.WriteLine("YES");
 
 
             }

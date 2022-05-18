@@ -11,19 +11,31 @@ namespace Crossroads
             int freeWindow = int.Parse(Console.ReadLine());
             int totalCarsPassed = 0;
             Queue<Queue<char>> cars = new Queue<Queue<char>>();
-            bool newCarPassing = false;
+            bool newCarPassing = true;
             string currentCar = string.Empty;
             string command = Console.ReadLine();
             while (command != "END")
             {
                 if (command == "green")
                 {
-                    currentCar = string.Join("",cars.Peek());
+                    currentCar = string.Join("", cars.Peek());
                     for (int i = 1; i <= greenLightTime; i++)
                     {
                         if (cars.Peek().Count > 0)
                         {
-                            cars.Peek().Dequeue();
+                            if (i == greenLightTime && cars.Peek().Count == 1)
+                            {
+                                newCarPassing = false;
+                                cars.Dequeue();
+
+
+                            }
+                            else
+                            {
+                                cars.Peek().Dequeue();
+
+                            }
+
 
 
                         }
@@ -31,7 +43,7 @@ namespace Crossroads
                         {
                             cars.Dequeue();
                             totalCarsPassed++;
-                            if ( cars.Count > 0)
+                            if (cars.Count > 0)
                             {
                                 newCarPassing = true;
                                 currentCar = string.Join("", cars.Peek());
