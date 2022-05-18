@@ -10,71 +10,75 @@ namespace Simple_text_editor
         {
             int numberOfOperations = int.Parse(Console.ReadLine());
             Stack<char> manipulatedString = new Stack<char>();
-            string characters = string.Empty;
-            Queue<char> deletedElements = new Queue<char>();
+            Stack<string[]> cache = new Stack<string[]>();
             for (int i = 0; i < numberOfOperations; i++)
             {
-                string[] commandArray = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                if (commandArray[0] == "1")
+                string[] commandsArray = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                if (commandsArray[0] == "1")
                 {
-                    foreach (char character in commandArray[1])
+                    foreach (char character in commandsArray[1])
                     {
                         manipulatedString.Push(character);
 
                     }
-                    characters = commandArray[1];
-                    deletedElements.Clear();
+                    cache.Push(commandsArray);
+
 
                 }
-                else if (commandArray[0] == "2")
+                else if (commandsArray[0] == "2")
                 {
 
 
-                    int eraseCount = int.Parse(commandArray[1]);
+                    int eraseCount = int.Parse(commandsArray[1]);
+                    string[] deletedElements = new string[eraseCount];
                     for (int j = 0; j < eraseCount; j++)
                     {
-                        deletedElements.Enqueue(manipulatedString.Pop());
+                        deletedElements[j] = manipulatedString.Pop().ToString();
                     }
-                    characters = string.Empty;
+                    cache.Push(deletedElements.Reverse().ToArray());
 
 
 
                 }
-                else if (commandArray[0] == "3")
+                else if (commandsArray[0] == "3")
                 {
-
+                    char[] charactersArr = manipulatedString.Reverse().ToArray();
+                    int returnIndex = int.Parse(commandsArray[1]);
+                    Console.WriteLine(charactersArr[returnIndex - 1]);
 
 
 
                 }
-                else if (commandArray[0] == "4")
+                else if (commandsArray[0] == "4")
                 {
-                    if (deletedElements.Count > 0)
+                    string[] lastCommand = cache.Pop();
+                    if (lastCommand[0] == "1")
                     {
-                        while (deletedElements.Count > 0)
+                        for (int j = 0; j < lastCommand[1].Length; j++)
                         {
-                            manipulatedString.Push(deletedElements.Dequeue());
+                            manipulatedString.Pop();
+                        }
+
+
+                    }
+                    else
+                    {
+
+                        foreach (string character in lastCommand)
+                        {
+
+                            manipulatedString.Push(char.Parse(character));
+
+
 
 
                         }
 
 
-                    }
-                    else if (characters != String.Empty)
-                    {
-                        foreach (char character in characters)
-                        {
-                            manipulatedString.Push(character);
-
-
-                        }
 
                     }
-
-
 
                 }
-
             }
         }
     }
