@@ -14,93 +14,107 @@ namespace Crossroads
             bool newCarPassing = true;
             string currentCar = string.Empty;
             string command = Console.ReadLine();
+            //car passes in time and another car starts and gets through
+            //car passes in time and another car starts and crashes
+            //car is exactly on the green light seconds
+
             while (command != "END")
             {
                 if (command == "green")
                 {
-                    currentCar = string.Join("", cars.Peek());
-                    for (int i = 1; i <= greenLightTime; i++)
+                    if (cars.Count == 0)
                     {
-                        if (cars.Peek().Count > 0)
-                        {
-                            if (i == greenLightTime && cars.Peek().Count == 1)
-                            {
-                                newCarPassing = false;
-                                cars.Dequeue();
-
-
-                            }
-                            else
-                            {
-                                cars.Peek().Dequeue();
-
-                            }
-
-
-
-                        }
-                        else
-                        {
-                            cars.Dequeue();
-                            totalCarsPassed++;
-                            if (cars.Count > 0)
-                            {
-                                newCarPassing = true;
-                                currentCar = string.Join("", cars.Peek());
-                                cars.Peek().Dequeue();
-
-
-                            }
-                            else
-                            {
-                                newCarPassing = false;
-                                break;
-
-                            }
-
-                        }
+                        command = Console.ReadLine();
+                        continue;
                     }
-                    if (newCarPassing)
-                    {
-                        for (int i = 0; i < freeWindow; i++)
+
+                        currentCar = string.Join("", cars.Peek());
+                        for (int i = 1; i <= greenLightTime; i++)
                         {
                             if (cars.Peek().Count > 0)
                             {
-                                cars.Peek().Dequeue();
+                                if (i == greenLightTime && cars.Peek().Count == 1)
+                                {
+                                    newCarPassing = false;
+                                    cars.Dequeue();
+                                    totalCarsPassed++;
+                                    break;
+
+
+                                }
+                                else
+                                {
+                                    cars.Peek().Dequeue();
+
+                                }
+
 
 
                             }
-                        }
-                        if (cars.Peek().Count > 0)
-                        {
-                            Console.WriteLine("A crash happened!");
-                            Console.WriteLine($"{currentCar} was hit at {cars.Peek().Dequeue()}.");
-                            return;
+                            else
+                            {
+                                cars.Dequeue();
+                                totalCarsPassed++;
+                                if (cars.Count > 0)
+                                {
+                                    newCarPassing = true;
+                                    currentCar = string.Join("", cars.Peek());
+                                    cars.Peek().Dequeue();
 
+
+                                }
+                                else
+                                {
+                                    newCarPassing = false;
+                                    break;
+
+                                }
+
+                            }
                         }
-                        else
+                        if (newCarPassing)
                         {
-                            totalCarsPassed++;
+                            for (int i = 0; i < freeWindow; i++)
+                            {
+                                if (cars.Peek().Count > 0)
+                                {
+                                    cars.Peek().Dequeue();
+
+
+                                }
+                            }
+                            if (cars.Peek().Count > 0)
+                            {
+                                Console.WriteLine("A crash happened!");
+                                Console.WriteLine($"{currentCar} was hit at {cars.Peek().Dequeue()}.");
+                                Environment.Exit(0);
+
+                            }
+                            else
+                            {
+                                cars.Dequeue();
+                                totalCarsPassed++;
+                                newCarPassing = false;
+
+                            }
+
 
                         }
 
 
                     }
+                    else
+                    {
+                        cars.Enqueue(new Queue<char>(command.ToCharArray()));
 
 
+                    }
+
+
+                    command = Console.ReadLine();
                 }
-                else
-                {
-                    cars.Enqueue(new Queue<char>(command.ToCharArray()));
-
-
-                }
-
-
-                command = Console.ReadLine();
+                Console.WriteLine("Everyone is safe.");
+                Console.WriteLine($"{totalCarsPassed} total cars passed the crossroads.");
             }
-            Console.WriteLine("Everyone is safe.");
-            Console.WriteLine($"{totalCarsPassed} total cars passed the crossroads.");
         }
     }
-}
