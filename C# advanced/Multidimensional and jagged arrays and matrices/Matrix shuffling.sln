@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix shuffling", "Matrix shuffling\Matrix shuffling.csproj", "{C2157728-8BCF-4B69-A692-537726F9DEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake Moves", "Snake Moves\Snake Moves.csproj", "{E07B1832-96A4-4A61-A224-B9391354A415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jagged array manipulation", "Jagged array manipulation\Jagged array manipulation.csproj", "{4CAD00AC-2935-4CB3-82A3-5EB13D1FC13A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2157728-8BCF-4B69-A692-537726F9DEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2157728-8BCF-4B69-A692-537726F9DEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2157728-8BCF-4B69-A692-537726F9DEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2157728-8BCF-4B69-A692-537726F9DEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07B1832-96A4-4A61-A224-B9391354A415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07B1832-96A4-4A61-A224-B9391354A415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07B1832-96A4-4A61-A224-B9391354A415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07B1832-96A4-4A61-A224-B9391354A415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAD00AC-2935-4CB3-82A3-5EB13D1FC13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAD00AC-2935-4CB3-82A3-5EB13D1FC13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAD00AC-2935-4CB3-82A3-5EB13D1FC13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAD00AC-2935-4CB3-82A3-5EB13D1FC13A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40704632-77F3-487D-A4FC-254A45D92FB5}
+	EndGlobalSection
+EndGlobal
