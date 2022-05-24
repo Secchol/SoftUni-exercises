@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace Radioactive_Mutant_Vampire_Bunnies
 {
@@ -32,10 +33,12 @@ namespace Radioactive_Mutant_Vampire_Bunnies
             char[] commands = Console.ReadLine().ToCharArray();
             bool playerDied = false;
             bool playerWon = false;
+            int[] playersLastIndex = new int[2];
+
             foreach (char command in commands)
             {
-                if (playerDied)
-                    continue;
+
+
                 int playerRow = playerPosition[0];
                 int playerCol = playerPosition[1];
                 matrix[playerRow, playerCol] = '.';
@@ -63,12 +66,16 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                 {
 
                     playerWon = true;
+                    playersLastIndex[0] = playerRow;
+                    playersLastIndex[1] = playerCol;
                 }
                 // Continue for playersWon-what to do then?
                 if (!playerWon && matrix[playerRow, playerCol] == 'B')
                 {
 
                     playerDied = true;
+                    playersLastIndex[0] = playerRow;
+                    playersLastIndex[1] = playerCol;
 
                 }
                 else
@@ -81,69 +88,82 @@ namespace Radioactive_Mutant_Vampire_Bunnies
 
 
                 }
+                Dictionary<int, int> bunnyIndices = new Dictionary<int, int>();
+                //USE SOME OTHER DATA STRUCTURE
                 for (int row = 0; row < matrix.GetLength(0); row++)
                 {
                     for (int col = 0; col < matrix.GetLength(1); col++)
                     {
                         if (matrix[row, col] == 'B')
                         {
-                            if (IsValidIndex(matrix, row - 1, col))
-                            {
-                                if (playerRow == row - 1 && playerCol == col && !playerWon)
-                                {
-                                    playerDied = true;
-
-                                }
-                                matrix[row - 1, col] = 'B';
-                            }
-                            if (IsValidIndex(matrix, row + 1, col))
-                            {
-                                if (playerRow == row + 1 && playerCol == col && !playerWon)
-                                {
-                                    playerDied = true;
-
-                                }
-                                matrix[row + 1, col] = 'B';
-                            }
-
-                            if (IsValidIndex(matrix, row, col - 1))
-                            {
-                                if (playerRow == row && playerCol == col - 1 && !playerWon)
-                                {
-                                    playerDied = true;
-
-                                }
-
-                                matrix[row, col - 1] = 'B';
-                            }
-                            if (IsValidIndex(matrix, row, col + 1))
-                            {
-                                if (playerRow == row && playerCol == col + 1 && !playerWon)
-                                {
-                                    playerDied = true;
-
-                                }
-                                matrix[row, col + 1] = 'B';
-                            }
-
+                            bunnyIndices[row] = col;
 
                         }
                     }
                 }
-                if (playerDied)
+
+                foreach (var bunny in bunnyIndices)
                 {
-                    Console.WriteLine($"dead: {playerRow} {playerCol}");
-                    Environment.Exit(0);
-                    break;
+                    int row = bunny.Key;
+                    int col = bunny.Value;
+
+                    if (matrix[row, col] == 'B')
+                    {
+                        if (IsValidIndex(matrix, row - 1, col))
+                        {
+                            if (playerRow == row - 1 && playerCol == col && !playerWon)
+                            {
+                                playerDied = true;
+                                playersLastIndex[0] = playerRow;
+                                playersLastIndex[1] = playerCol;
+
+                            }
+                            matrix[row - 1, col] = 'B';
+                        }
+                        if (IsValidIndex(matrix, row + 1, col))
+                        {
+                            if (playerRow == row + 1 && playerCol == col && !playerWon)
+                            {
+                                playerDied = true;
+                                playersLastIndex[0] = playerRow;
+                                playersLastIndex[1] = playerCol;
+                            }
+                            matrix[row + 1, col] = 'B';
+                        }
+
+                        if (IsValidIndex(matrix, row, col - 1))
+                        {
+                            if (playerRow == row && playerCol == col - 1 && !playerWon)
+                            {
+                                playerDied = true;
+                                playersLastIndex[0] = playerRow;
+                                playersLastIndex[1] = playerCol;
+                            }
+
+                            matrix[row, col - 1] = 'B';
+                        }
+                        if (IsValidIndex(matrix, row, col + 1))
+                        {
+                            if (playerRow == row && playerCol == col + 1 && !playerWon)
+                            {
+                                playerDied = true;
+                                playersLastIndex[0] = playerRow;
+                                playersLastIndex[1] = playerCol;
+                            }
+                            matrix[row, col + 1] = 'B';
+                        }
+
+                    }
+
 
                 }
-                else if (playerWon)
+                if (playerDied || playerWon)
                 {
-                    Console.WriteLine($"won: {playerRow} {playerCol}");
-                    Environment.Exit(0);
                     break;
 
+
                 }
+
                 else
                 {
                     playerPosition[0] = playerRow;
@@ -152,7 +172,28 @@ namespace Radioactive_Mutant_Vampire_Bunnies
 
                 }
 
+
             }
+            for (int row = 0; row < matrix.GetLength(0); row++)
+            {
+                for (int col = 0; col < matrix.GetLength(1); col++)
+                {
+                    Console.Write($"{matrix[row, col]} ");
+                }
+                Console.WriteLine();
+            }
+            if (playerDied)
+            {
+                Console.WriteLine($"dead: {playersLastIndex[0]} {playersLastIndex[1]}");
+
+            }
+            else if (playerWon)
+            {
+                Console.WriteLine($"won: {playersLastIndex[0]} {playersLastIndex[1]}");
+
+
+            }
+
         }
         static bool IsValidIndex(char[,] matrix, int row, int col)
         {
