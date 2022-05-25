@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities by continent and country", "Cities by continent and country\Cities by continent and country.csproj", "{88403A1C-0E29-4E9E-875B-A73FC3209A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking Lot", "..\Parking Lot\Parking Lot.csproj", "{41A994C4-3BB2-49AA-B620-86289F6DD907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88403A1C-0E29-4E9E-875B-A73FC3209A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88403A1C-0E29-4E9E-875B-A73FC3209A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88403A1C-0E29-4E9E-875B-A73FC3209A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88403A1C-0E29-4E9E-875B-A73FC3209A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A994C4-3BB2-49AA-B620-86289F6DD907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A994C4-3BB2-49AA-B620-86289F6DD907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A994C4-3BB2-49AA-B620-86289F6DD907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A994C4-3BB2-49AA-B620-86289F6DD907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641641D6-1BB7-421A-BAF6-335B2F12DA35}
+	EndGlobalSection
+EndGlobal
