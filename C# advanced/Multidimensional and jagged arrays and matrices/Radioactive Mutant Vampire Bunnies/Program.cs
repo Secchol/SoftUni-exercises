@@ -69,7 +69,7 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                     playersLastIndex[0] = playerRow;
                     playersLastIndex[1] = playerCol;
                 }
-                // Continue for playersWon-what to do then?
+                
                 if (!playerWon && matrix[playerRow, playerCol] == 'B')
                 {
 
@@ -88,7 +88,7 @@ namespace Radioactive_Mutant_Vampire_Bunnies
 
 
                 }
-                Dictionary<int, int> bunnyIndices = new Dictionary<int, int>();
+                Dictionary<int, List<int>> bunnyIndices = new Dictionary<int, List<int>>();
                 //USE SOME OTHER DATA STRUCTURE
                 for (int row = 0; row < matrix.GetLength(0); row++)
                 {
@@ -96,19 +96,20 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                     {
                         if (matrix[row, col] == 'B')
                         {
-                            bunnyIndices[row] = col;
+                            if (!bunnyIndices.ContainsKey(row))
+                                bunnyIndices.Add(row, new List<int>());
+                            bunnyIndices[row].Add(col);
 
                         }
                     }
                 }
 
-                foreach (var bunny in bunnyIndices)
+                foreach (var (row, cols) in bunnyIndices)
                 {
-                    int row = bunny.Key;
-                    int col = bunny.Value;
-
-                    if (matrix[row, col] == 'B')
+                    foreach (int col in cols)
                     {
+
+
                         if (IsValidIndex(matrix, row - 1, col))
                         {
                             if (playerRow == row - 1 && playerCol == col && !playerWon)
@@ -153,6 +154,7 @@ namespace Radioactive_Mutant_Vampire_Bunnies
                             matrix[row, col + 1] = 'B';
                         }
 
+
                     }
 
 
@@ -178,7 +180,7 @@ namespace Radioactive_Mutant_Vampire_Bunnies
             {
                 for (int col = 0; col < matrix.GetLength(1); col++)
                 {
-                    Console.Write($"{matrix[row, col]} ");
+                    Console.Write($"{matrix[row, col]}");
                 }
                 Console.WriteLine();
             }
