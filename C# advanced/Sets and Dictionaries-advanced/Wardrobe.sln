@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranking", "Ranking\Ranking.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Exam Results", "SoftUni Exam Results\SoftUni Exam Results.csproj", "{EE8006C1-B69E-4BD9-A990-DB57E4B3151E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceBook", "ForceBook\ForceBook.csproj", "{045AC536-5F48-4A5A-8F2B-AA76FC33DC22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EE8006C1-B69E-4BD9-A990-DB57E4B3151E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8006C1-B69E-4BD9-A990-DB57E4B3151E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE8006C1-B69E-4BD9-A990-DB57E4B3151E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045AC536-5F48-4A5A-8F2B-AA76FC33DC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045AC536-5F48-4A5A-8F2B-AA76FC33DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045AC536-5F48-4A5A-8F2B-AA76FC33DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045AC536-5F48-4A5A-8F2B-AA76FC33DC22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
