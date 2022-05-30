@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Folder size", "Folder size\Folder size.csproj", "{9B8BB0A4-6E24-4159-B99E-C818DE51ACF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{A4D067FC-DC54-42F2-BDF0-36CEF48FCC7E}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2", "2", "{72EF5BB9-BE65-4A26-A72E-55640C7A7C45}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile2.txt = TextFile2.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B8BB0A4-6E24-4159-B99E-C818DE51ACF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8BB0A4-6E24-4159-B99E-C818DE51ACF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8BB0A4-6E24-4159-B99E-C818DE51ACF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8BB0A4-6E24-4159-B99E-C818DE51ACF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72EF5BB9-BE65-4A26-A72E-55640C7A7C45} = {A4D067FC-DC54-42F2-BDF0-36CEF48FCC7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E83CAE-A313-4761-9B01-CB60E94FF6A0}
+	EndGlobalSection
+EndGlobal
