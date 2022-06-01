@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter by age", "Filter by age\Filter by age.csproj", "{52268AEE-6571-4497-9357-824CDED5336A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filter by age", "Filter by age\Filter by age.csproj", "{52268AEE-6571-4497-9357-824CDED5336A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy ex", "E:\Easy ex\Easy ex.csproj", "{70820465-9C59-4DEA-A66C-59AE0F1D29DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applied Arithmetics", "..\ConsoleApp1\Applied Arithmetics.csproj", "{3065F81C-BE2F-4992-AF88-56D623225DA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{52268AEE-6571-4497-9357-824CDED5336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52268AEE-6571-4497-9357-824CDED5336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52268AEE-6571-4497-9357-824CDED5336A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70820465-9C59-4DEA-A66C-59AE0F1D29DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70820465-9C59-4DEA-A66C-59AE0F1D29DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70820465-9C59-4DEA-A66C-59AE0F1D29DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70820465-9C59-4DEA-A66C-59AE0F1D29DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3065F81C-BE2F-4992-AF88-56D623225DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3065F81C-BE2F-4992-AF88-56D623225DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3065F81C-BE2F-4992-AF88-56D623225DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3065F81C-BE2F-4992-AF88-56D623225DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
