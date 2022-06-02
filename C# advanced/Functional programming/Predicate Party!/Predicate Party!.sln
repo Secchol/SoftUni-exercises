@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Predicate Party!", "Predicate Party!.csproj", "{E1C4857C-90AE-432C-90AB-0A08F774A0A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Party Reservation Filter Module", "..\The Party Reservation Filter Module\The Party Reservation Filter Module.csproj", "{38F8D6BC-06F8-4589-8D77-7DFFB9A591D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriFunction", "..\TriFunction\TriFunction.csproj", "{3056FEF7-E64A-4824-B9CE-5240645E805C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E1C4857C-90AE-432C-90AB-0A08F774A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1C4857C-90AE-432C-90AB-0A08F774A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1C4857C-90AE-432C-90AB-0A08F774A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F8D6BC-06F8-4589-8D77-7DFFB9A591D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F8D6BC-06F8-4589-8D77-7DFFB9A591D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F8D6BC-06F8-4589-8D77-7DFFB9A591D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F8D6BC-06F8-4589-8D77-7DFFB9A591D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3056FEF7-E64A-4824-B9CE-5240645E805C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3056FEF7-E64A-4824-B9CE-5240645E805C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3056FEF7-E64A-4824-B9CE-5240645E805C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3056FEF7-E64A-4824-B9CE-5240645E805C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
