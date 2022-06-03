@@ -11,7 +11,7 @@ namespace The_Party_Reservation_Filter_Module
             List<string> people = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries).ToList();
             string command = Console.ReadLine();
-            Queue<string> removedPeople = new Queue<string>();
+            var removedPeople = new Dictionary<string, Queue<string>>();
             while (command != "Print")
             {
                 string[] commandArray = command.Split(";", StringSplitOptions.RemoveEmptyEntries);
@@ -19,13 +19,19 @@ namespace The_Party_Reservation_Filter_Module
                 string filter = commandArray[1];
                 string filterElement = commandArray[2];
                 Predicate<string> format = FormatFinder(filter, filterElement);
+                string[] filterElements = new string[2];
+                filterElements[0] = filter;
+                filterElements[1] = filterElement;
+                string key = string.Join(" ", filterElements);
                 if (addOrRemove == "Add filter")
                 {
+
+                    removedPeople.Add(key, new Queue<string>());
                     for (int i = 0; i < people.Count; i++)
                     {
                         if (format(people[i]))
                         {
-                            removedPeople.Enqueue(people[i]);
+                            removedPeople[key].Enqueue(people[i]);
                             people.RemoveAt(i);
                             i--;
 
@@ -36,24 +42,9 @@ namespace The_Party_Reservation_Filter_Module
                 }
                 else if (addOrRemove == "Remove filter")
                 {
-                    for (int i = 0; i < removedPeople.Count; i++)
-                    {
-                        if (format(removedPeople.Peek()))
-                        {
-                            people.Insert(0, removedPeople.Peek());
-                            removedPeople.Dequeue();
-
-
-                        }
-                        else
-                        {
-                            string temp = removedPeople.Dequeue();
-                            removedPeople.Enqueue(temp);
-
-
-                        }
-                    }
-
+                    Queue<string> peopleToAdd = removedPeople[key];
+                    while (peopleToAdd.Count > 0)
+                        people.Insert(0, peopleToAdd.Dequeue());
 
 
                 }
