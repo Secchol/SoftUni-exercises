@@ -31,7 +31,8 @@ namespace DefiningClasses
                     if (car.Model == model)
                     {
                         car.DriveCar(car, distanceTravelled);
-
+                        
+                        break;
 
                     }
 
