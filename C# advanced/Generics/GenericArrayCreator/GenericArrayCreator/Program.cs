@@ -1,12 +1,14 @@
 ﻿using System;
 
+
 namespace GenericArrayCreator
 {
-    internal class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] strings = ArrayCreator.Create(10,"123");
+            Console.WriteLine(string.Join(" ",strings));
         }
     }
 }
