@@ -7,8 +7,9 @@ namespace GenericArrayCreator
     {
         static void Main(string[] args)
         {
-            string[] strings = ArrayCreator.Create(10,"123");
-            Console.WriteLine(string.Join(" ",strings));
+            
+            
         }
+       
     }
 }
