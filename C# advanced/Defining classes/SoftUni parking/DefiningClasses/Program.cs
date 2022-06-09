@@ -9,6 +9,7 @@ namespace SoftUniParking
         public static void Main(string[] args)
         {
             var car = new Car("Skoda", "Fabia", 65, "CC1856BG");
+            
 
             var car2 = new Car("Audi", "A3", 110, "EB8787MN");
             Console.WriteLine(car.ToString());
