@@ -22,27 +22,28 @@ namespace _1.Bakery_shop
                 double currentWater = waterValues.Peek();
                 double currentFlour = flourValues.Peek();
                 double waterPercentage = currentWater * 100 / (currentFlour + currentWater);
+                double flourPercentage = currentFlour * 100 / (currentWater + currentFlour);
                 string product = string.Empty;
                 double flourLeft = 0;
-                if (waterPercentage == 50)
+                if (waterPercentage == 50 && flourPercentage == 50)
                 {
                     product = "Croissant";
 
 
                 }
-                else if (waterPercentage == 40)
+                else if (waterPercentage == 40 && flourPercentage == 60)
                 {
                     product = "Muffin";
 
 
                 }
-                else if (waterPercentage == 30)
+                else if (waterPercentage == 30 && flourPercentage == 70)
                 {
                     product = "Baguette";
 
 
                 }
-                else if (waterPercentage == 20)
+                else if (waterPercentage == 20 && flourPercentage == 80)
                 {
                     product = "Bagel";
 
@@ -76,7 +77,7 @@ namespace _1.Bakery_shop
             if (waterValues.Count == 0)
                 Console.WriteLine("Water left: None");
             else
-                Console.WriteLine($"Water left {string.Join(", ", waterValues)}");
+                Console.WriteLine($"Water left: {string.Join(", ", waterValues)}");
 
             if (flourValues.Count == 0)
                 Console.WriteLine("Flour left: None");
