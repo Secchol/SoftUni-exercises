@@ -43,7 +43,7 @@ namespace _2._Pawn_wars
                 int[] winnerCoordinates = new int[2];
                 string winner = string.Empty;
                 matrix[whiteRow, whiteCol] = "-";
-                if (matrix[whiteRow - 1, whiteCol - 1] == "b" || matrix[whiteRow - 1, whiteCol + 1] == "b")
+                if ((ColIndexValidation(matrix, whiteCol - 1) && matrix[whiteRow - 1, whiteCol - 1] == "b") || (ColIndexValidation(matrix, whiteCol + 1) && matrix[whiteRow - 1, whiteCol + 1] == "b"))
                 {
                     whiteWon = true;
                     whiteRow = blackRow;
@@ -65,12 +65,13 @@ namespace _2._Pawn_wars
                 {
                     whiteRow--;
                     whitePosition[0] = whiteRow;
+                    matrix[whitePosition[0], whitePosition[1]] = "w";
 
                 }
                 if (!whiteWon && !whitePromoted)
                 {
                     matrix[blackRow, blackCol] = "-";
-                    if (matrix[blackRow + 1, blackCol - 1] == "w" || matrix[blackRow + 1, whiteCol + 1] == "w")
+                    if ((ColIndexValidation(matrix, blackCol - 1) && matrix[blackRow + 1, blackCol - 1] == "w") || (ColIndexValidation(matrix, blackCol + 1) && matrix[blackRow + 1, blackCol + 1] == "w"))
                     {
                         blackWon = true;
                         blackRow = whiteRow;
@@ -92,6 +93,7 @@ namespace _2._Pawn_wars
                     {
                         blackRow++;
                         blackPosition[0] = blackRow;
+                        matrix[blackPosition[0], blackPosition[1]] = "b";
                     }
 
 
@@ -154,6 +156,13 @@ namespace _2._Pawn_wars
                     break;
             }
             return $"{colLetter}{realRow}";
+
+
+        }
+        public static bool ColIndexValidation(string[,] matrix, int col)
+        {
+            return col >= 0 && col < matrix.GetLength(1);
+
 
 
         }
