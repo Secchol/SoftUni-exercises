@@ -1,0 +1,16 @@
+E:\Exam 6\1. Scheduling\2. Garden\bin\Debug\net5.0\2. Garden.exe
+E:\Exam 6\1. Scheduling\2. Garden\bin\Debug\net5.0\2. Garden.deps.json
+E:\Exam 6\1. Scheduling\2. Garden\bin\Debug\net5.0\2. Garden.runtimeconfig.json
+E:\Exam 6\1. Scheduling\2. Garden\bin\Debug\net5.0\2. Garden.runtimeconfig.dev.json
+E:\Exam 6\1. Scheduling\2. Garden\bin\Debug\net5.0\2. Garden.dll
+E:\Exam 6\1. Scheduling\2. Garden\bin\Debug\net5.0\2. Garden.pdb
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.csproj.AssemblyReference.cache
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.GeneratedMSBuildEditorConfig.editorconfig
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.AssemblyInfoInputs.cache
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.AssemblyInfo.cs
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.csproj.CoreCompileInputs.cache
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.dll
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\refint\2. Garden.dll
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.pdb
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\2. Garden.genruntimeconfig.cache
+E:\Exam 6\1. Scheduling\2. Garden\obj\Debug\net5.0\ref\2. Garden.dll

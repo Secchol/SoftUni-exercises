@@ -1,0 +1,14 @@
+E:\Exam 6\1. Scheduling\ClassroomProject\bin\Debug\netcoreapp3.1\ClassroomProject.exe
+E:\Exam 6\1. Scheduling\ClassroomProject\bin\Debug\netcoreapp3.1\ClassroomProject.deps.json
+E:\Exam 6\1. Scheduling\ClassroomProject\bin\Debug\netcoreapp3.1\ClassroomProject.runtimeconfig.json
+E:\Exam 6\1. Scheduling\ClassroomProject\bin\Debug\netcoreapp3.1\ClassroomProject.runtimeconfig.dev.json
+E:\Exam 6\1. Scheduling\ClassroomProject\bin\Debug\netcoreapp3.1\ClassroomProject.dll
+E:\Exam 6\1. Scheduling\ClassroomProject\bin\Debug\netcoreapp3.1\ClassroomProject.pdb
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.csproj.AssemblyReference.cache
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.AssemblyInfoInputs.cache
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.AssemblyInfo.cs
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.csproj.CoreCompileInputs.cache
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.dll
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.pdb
+E:\Exam 6\1. Scheduling\ClassroomProject\obj\Debug\netcoreapp3.1\ClassroomProject.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+E:\Exam 6\1. Scheduling\1. Scheduling\bin\Debug\net5.0\1. Scheduling.exe
+E:\Exam 6\1. Scheduling\1. Scheduling\bin\Debug\net5.0\1. Scheduling.deps.json
+E:\Exam 6\1. Scheduling\1. Scheduling\bin\Debug\net5.0\1. Scheduling.runtimeconfig.json
+E:\Exam 6\1. Scheduling\1. Scheduling\bin\Debug\net5.0\1. Scheduling.runtimeconfig.dev.json
+E:\Exam 6\1. Scheduling\1. Scheduling\bin\Debug\net5.0\1. Scheduling.dll
+E:\Exam 6\1. Scheduling\1. Scheduling\bin\Debug\net5.0\1. Scheduling.pdb
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.csproj.AssemblyReference.cache
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.GeneratedMSBuildEditorConfig.editorconfig
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.AssemblyInfoInputs.cache
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.AssemblyInfo.cs
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.csproj.CoreCompileInputs.cache
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.dll
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\refint\1. Scheduling.dll
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.pdb
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\1. Scheduling.genruntimeconfig.cache
+E:\Exam 6\1. Scheduling\1. Scheduling\obj\Debug\net5.0\ref\1. Scheduling.dll
