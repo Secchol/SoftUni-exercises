@@ -1,0 +1,16 @@
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\bin\Debug\net5.0\2. Snake.exe
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\bin\Debug\net5.0\2. Snake.deps.json
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\bin\Debug\net5.0\2. Snake.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\bin\Debug\net5.0\2. Snake.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\bin\Debug\net5.0\2. Snake.dll
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\bin\Debug\net5.0\2. Snake.pdb
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.dll
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\refint\2. Snake.dll
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.pdb
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\2. Snake.genruntimeconfig.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\2. Snake\obj\Debug\net5.0\ref\2. Snake.dll

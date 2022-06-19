@@ -1,0 +1,16 @@
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\bin\Debug\net5.0\1. Bombs.exe
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\bin\Debug\net5.0\1. Bombs.deps.json
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\bin\Debug\net5.0\1. Bombs.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\bin\Debug\net5.0\1. Bombs.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\bin\Debug\net5.0\1. Bombs.dll
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\bin\Debug\net5.0\1. Bombs.pdb
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.dll
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\refint\1. Bombs.dll
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.pdb
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\1. Bombs.genruntimeconfig.cache
+C:\Users\This\SoftUni-exercises\C# advanced\Exam preparations\6 exam\1. Bombs\1. Bombs\obj\Debug\net5.0\ref\1. Bombs.dll
