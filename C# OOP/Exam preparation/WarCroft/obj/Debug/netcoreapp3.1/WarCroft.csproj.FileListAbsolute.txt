@@ -1,0 +1,14 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\bin\Debug\netcoreapp3.1\WarCroft.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\WarCroft\obj\Debug\netcoreapp3.1\WarCroft.genruntimeconfig.cache
