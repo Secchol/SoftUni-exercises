@@ -1,0 +1,14 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\bin\Debug\netcoreapp3.1\Bakery.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\bin\Debug\netcoreapp3.1\Bakery.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\bin\Debug\netcoreapp3.1\Bakery.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\bin\Debug\netcoreapp3.1\Bakery.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\bin\Debug\netcoreapp3.1\Bakery.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\bin\Debug\netcoreapp3.1\Bakery.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exam preparation\Bakery\obj\Debug\netcoreapp3.1\Bakery.genruntimeconfig.cache
