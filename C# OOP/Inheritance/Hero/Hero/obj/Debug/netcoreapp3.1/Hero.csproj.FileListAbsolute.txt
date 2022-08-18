@@ -1,0 +1,14 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\bin\Debug\netcoreapp3.1\Hero.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\bin\Debug\netcoreapp3.1\Hero.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\bin\Debug\netcoreapp3.1\Hero.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\bin\Debug\netcoreapp3.1\Hero.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\bin\Debug\netcoreapp3.1\Hero.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\bin\Debug\netcoreapp3.1\Hero.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Hero\Hero\obj\Debug\netcoreapp3.1\Hero.genruntimeconfig.cache
