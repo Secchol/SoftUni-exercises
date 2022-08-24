@@ -1,0 +1,14 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\bin\Debug\netcoreapp3.1\Wild farm.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\bin\Debug\netcoreapp3.1\Wild farm.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\bin\Debug\netcoreapp3.1\Wild farm.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\bin\Debug\netcoreapp3.1\Wild farm.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\bin\Debug\netcoreapp3.1\Wild farm.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\bin\Debug\netcoreapp3.1\Wild farm.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Polymorphism\Wild farm\Wild farm\obj\Debug\netcoreapp3.1\Wild farm.genruntimeconfig.cache
