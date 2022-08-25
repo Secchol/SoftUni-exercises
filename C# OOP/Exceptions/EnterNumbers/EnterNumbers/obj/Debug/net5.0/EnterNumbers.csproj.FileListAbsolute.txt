@@ -1,0 +1,16 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\bin\Debug\net5.0\EnterNumbers.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\bin\Debug\net5.0\EnterNumbers.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\bin\Debug\net5.0\EnterNumbers.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\bin\Debug\net5.0\EnterNumbers.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\bin\Debug\net5.0\EnterNumbers.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\bin\Debug\net5.0\EnterNumbers.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\refint\EnterNumbers.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\EnterNumbers.genruntimeconfig.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\EnterNumbers\EnterNumbers\obj\Debug\net5.0\ref\EnterNumbers.dll
