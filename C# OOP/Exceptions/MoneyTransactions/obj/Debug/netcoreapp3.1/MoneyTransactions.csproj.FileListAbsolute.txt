@@ -1,0 +1,14 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\bin\Debug\netcoreapp3.1\MoneyTransactions.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\bin\Debug\netcoreapp3.1\MoneyTransactions.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\bin\Debug\netcoreapp3.1\MoneyTransactions.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\bin\Debug\netcoreapp3.1\MoneyTransactions.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\bin\Debug\netcoreapp3.1\MoneyTransactions.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\bin\Debug\netcoreapp3.1\MoneyTransactions.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\MoneyTransactions\obj\Debug\netcoreapp3.1\MoneyTransactions.genruntimeconfig.cache
