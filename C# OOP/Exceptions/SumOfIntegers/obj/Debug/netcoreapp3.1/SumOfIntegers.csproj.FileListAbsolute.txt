@@ -1,0 +1,14 @@
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\bin\Debug\netcoreapp3.1\SumOfIntegers.exe
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\bin\Debug\netcoreapp3.1\SumOfIntegers.deps.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\bin\Debug\netcoreapp3.1\SumOfIntegers.runtimeconfig.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\bin\Debug\netcoreapp3.1\SumOfIntegers.runtimeconfig.dev.json
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\bin\Debug\netcoreapp3.1\SumOfIntegers.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\bin\Debug\netcoreapp3.1\SumOfIntegers.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.csproj.AssemblyReference.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.AssemblyInfoInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.AssemblyInfo.cs
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.csproj.CoreCompileInputs.cache
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.dll
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.pdb
+C:\Users\This\SoftUni-exercises\C# OOP\Exceptions\SumOfIntegers\obj\Debug\netcoreapp3.1\SumOfIntegers.genruntimeconfig.cache
