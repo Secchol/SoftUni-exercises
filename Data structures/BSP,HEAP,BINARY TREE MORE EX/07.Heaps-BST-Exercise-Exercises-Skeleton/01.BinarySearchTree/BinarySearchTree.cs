@@ -124,7 +124,37 @@
 
         public IEnumerable<T> Range(T startRange, T endRange)
         {
-            throw new NotImplementedException();
+            var elements = new List<T>();
+            FindAllElements(this.root, startRange, endRange, elements);
+            return elements;
+        }
+
+        private void FindAllElements(Node root, T startRange, T endRange, List<T> elements)
+        {
+            if (root == null)
+            {
+                return;
+
+            }
+            if (root.Value.CompareTo(startRange) > 0)
+            {
+                FindAllElements(root.Left, startRange, endRange, elements);
+
+            }
+
+            if (root.Value.CompareTo(startRange) >= 0 || root.Value.CompareTo(endRange) >= 0)
+            {
+                elements.Add(root.Value);
+
+
+            }
+
+            if (root.Value.CompareTo(endRange) < 0)
+            {
+                FindAllElements(root.Right, startRange, endRange, elements);
+
+            }
+
         }
 
         private Node FindElement(T element)

@@ -6,33 +6,55 @@
 
     public class SinglyLinkedList<T> : IAbstractLinkedList<T>
     {
-        private Node<T> _head;
+        private Node<T> head;
+        private Node<T> tail;
 
         public int Count { get; private set; }
 
         public void AddFirst(T item)
         {
-            throw new NotImplementedException();
+            Node<T> newNode = new Node<T>(item);
+            if (this.head == null)
+            {
+                this.tail = newNode;
+                this.head = newNode;
+            }
+            else
+            {
+
+                Node<T> oldNode = this.head;
+                this.head = newNode;
+                this.head.Next = oldNode;
+            }
         }
 
         public void AddLast(T item)
         {
-            throw new NotImplementedException();
+            Node<T> lastEl = new Node<T>(item);
+            if (this.tail == null)
+            {
+                this.head = lastEl;
+            }
+
+            this.tail.Next = lastEl;
+            this.tail = lastEl;
         }
 
         public T GetFirst()
         {
-            throw new NotImplementedException();
+            return this.head.Value;
         }
 
         public T GetLast()
         {
-            throw new NotImplementedException();
+            return this.tail.Value;
         }
 
         public T RemoveFirst()
         {
-            throw new NotImplementedException();
+            T oldHead = this.head.Value;
+            this.head = this.head.Next;
+            return oldHead;
         }
 
         public T RemoveLast()
@@ -42,7 +64,12 @@
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            Node<T> currentNode = this.head;
+            while (currentNode != null)
+            {
+                yield return currentNode.Value;
+                currentNode = currentNode.Next;
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()

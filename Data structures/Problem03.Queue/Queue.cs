@@ -32,10 +32,10 @@
             {
                 throw new InvalidOperationException();
             }
-            Node<T> oldHead = this.head;
+            T item = this.head.Value;
             this.head = this.head.Next;
             this.Count--;
-            return oldHead.Value;
+            return item;
         }
 
         public void Enqueue(T item)
@@ -49,9 +49,8 @@
             }
             else
             {
-                Node<T> oldTail = this.head;
-                this.head = newNode;
-                this.head.Next = oldTail;
+                this.tail.Next = newNode;
+                this.tail = newNode;
             }
             this.Count++;
         }
@@ -62,7 +61,7 @@
             {
                 throw new InvalidOperationException();
             }
-            return this.tail.Value;
+            return this.head.Value;
         }
 
         public IEnumerator<T> GetEnumerator()

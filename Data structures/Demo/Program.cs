@@ -3,6 +3,7 @@ using Problem02.Stack;
 using Problem03.Queue;
 using System;
 
+
 namespace Demo
 {
     internal class Program
@@ -13,7 +14,12 @@ namespace Demo
             queue.Enqueue(1);
             queue.Enqueue(2);
             queue.Enqueue(3);
-            Console.WriteLine(queue.Peek());
+            queue.Enqueue(4);
+
+            foreach (var item in queue)
+            {
+                Console.WriteLine(item);
+            }
 
         }
     }

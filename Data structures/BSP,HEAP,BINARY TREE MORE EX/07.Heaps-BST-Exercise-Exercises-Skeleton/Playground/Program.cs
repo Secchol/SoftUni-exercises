@@ -14,7 +14,7 @@ namespace Playground
             tree.Insert(15);
             tree.Insert(11);
             tree.Insert(20);
-            tree.DeleteMin();
+            tree.Range(10, 20);
 
         }
     }
