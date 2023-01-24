@@ -95,14 +95,20 @@
 
         public TValue Get(TKey key)
         {
-            throw new NotImplementedException();
+            var element = this.Find(key);
+            if (element == null)
+            {
+                throw new KeyNotFoundException();
+
+            }
+            return element.Value;
         }
 
         public TValue this[TKey key]
         {
             get
             {
-                throw new NotImplementedException();
+                return this.Get(key);
             }
             set
             {
@@ -126,22 +132,56 @@
 
         public KeyValue<TKey, TValue> Find(TKey key)
         {
-            throw new NotImplementedException();
+            int index = Math.Abs(key.GetHashCode()) % this.Capacity;
+            if (this.slots[index] != null)
+            {
+                foreach (var element in this.slots[index])
+                {
+                    if (element.Key.Equals(key))
+                    {
+                        return element;
+
+                    }
+                }
+
+            }
+            return null;
         }
 
         public bool ContainsKey(TKey key)
         {
-            throw new NotImplementedException();
+            var element = this.Find(key);
+            if (element == null)
+                return false;
+            return true;
         }
 
         public bool Remove(TKey key)
         {
-            throw new NotImplementedException();
+            int index = Math.Abs(key.GetHashCode()) % this.Capacity;
+            if (this.slots[index] != null)
+            {
+                var currentElement = this.slots[index].First;
+                while (currentElement != null)
+                {
+                    if (currentElement.Value.Key.Equals(key))
+                    {
+                        this.slots[index].Remove(currentElement);
+                        this.Count--;
+                        return true;
+
+                    }
+                    currentElement = currentElement.Next;
+                }
+            }
+            return false;
+
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            this.slots = new LinkedList<KeyValue<TKey, TValue>>[DefaultCapacity];
+            this.Count = 0;
         }
 
         public IEnumerable<TKey> Keys => this.Select(kvp => kvp.Key);
@@ -150,7 +190,19 @@
         {
             get
             {
-                return this.Select(kvp => kvp.Value);
+                var values = new List<KeyValue<TKey, TValue>>();
+                foreach (var slot in this.slots)
+                {
+                    if (slot != null)
+                    {
+                        foreach (var element in slot)
+                        {
+                            values.Add(element);
+                        }
+
+                    }
+                }
+                return values.Select(x => x.Value);
             }
         }
 
